@@ -1,0 +1,182 @@
+
+
+.leftside{
+    float: left;
+    position: relative;
+    width: 100%;
+   
+    
+    
+}
+
+.leftside .background-image{
+    height: 50rem;
+    position: relative;
+    
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.text{
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+.overlay{
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 33rem;
+ 
+}
+
+.overlay .text{
+    font-size: 25px;
+    color: azure;
+    margin:23rem 3rem ;
+    
+}
+--------------------------------------------------------------------------------
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wraped{
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+} 
+
+
+.leftside{
+    float: left;
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+    
+    
+}
+
+.leftside img{
+    height: 42rem;
+    position: relative;
+    width: 60rem;
+    
+}
+
+.overlay{
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 33rem;
+ 
+}
+
+.overlay .text{
+    font-size: 25px;
+    color: azure;
+    margin:23rem 3rem ;
+    
+}
+
+/*********************************/
+
+.rightside{
+    font-size: 40px;
+    float: right;
+    width: 25%;
+    
+
+}
+----------------------------------------------
+
+responsive
+
+@media screen and (max-width: 600px) {
+    .topnavbar a:not(:first-child) {display: none;}
+    .topnavbar a.icon{
+        float: right;
+        display: block;
+    }
+    .topnavbar img{
+        width: 120px;
+        
+    }
+
+    .topnavbar.responsive {position: relative;}
+    .topnavbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnavbar.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+----------------------------------------------------
+
+workout
+
+.bodywork{
+    background-color: silver;
+}
+
+.bodywork .workimgen1{
+    width: 40%;
+    
+}
+
+.bodywork .workimgen2{
+    width: 40%;
+    
+    
+}
+
+.bodywork .workimgen3{
+    width: 50%;
+    padding: 5px;
+}
+
+.bodywork .workimgen4{
+    width: 40%;
+    padding: 5px;
+}
+
+.midwk{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 0;
+}
